@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="css/index.css">
 
     <!-- Fonts -->
@@ -20,10 +20,24 @@
             <img src="assets/main-logo.png" alt="" class="header-logo">
             <nav class="header-nav">
                 <a href="#" class="nav-link _selected">Home</a>
-                <a href="#" class="nav-link">Works</a>
-                <a href="#" class="nav-link">Blog</a>
-                <a href="#" class="nav-link">Contact</a>
+                <a href="html/work.html" class="nav-link">Works</a>
+                <a href="html/blog.html" class="nav-link">Blog</a>
+                <a href="html/contact.html" class="nav-link">Contact</a>
             </nav>
+
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item _selected" href="#">Home</a></li>
+                    <li><a class="menu__item" href="html/work.html">Works</a></li>
+                    <li><a class="menu__item" href="html/blog.html">Blog</a></li>
+                    <li><a class="menu__item" href="html/contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
         <div class="container-content">
             <header class="header">
@@ -166,7 +180,7 @@
                     <a href="https://www.twitter.com" target="_blank" class="footer-contact-link">
                         <img src="assets/footer/twitter.png" alt="" class="footer-contact-link-img">
                     </a>
-                    <a href="https://www.Linkedin.com"target="_blank" class="footer-contact-link">
+                    <a href="https://www.Linkedin.com" target="_blank" class="footer-contact-link">
                         <img src="assets/footer/Linkedin.png" alt="" class="footer-contact-link-img">
                     </a>
                 </div>
