@@ -95,7 +95,7 @@ background-color: #CFD8DC;
     height: 4px;
     left: 50%;
     background-color: #000;
-    transition: all .4s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .nav-link:hover::after{width: 100%; left: 0;}
 ._selected{color: #FF6464;}
@@ -216,8 +216,13 @@ background-color: #CFD8DC;
     .post{width: 500px;}
     .post-content{max-width: 450px;}
 
+    .works-slot-content{display: block; margin: 0 auto;}
+    .works-slot-img, .works-slot-cont-img{width: 380px; height: 260px; margin: 0 auto;}
+    .works-slot-text-title, .works-slot-text-info{max-width: max-content; margin: 10px auto 0 auto;}
+    .works-slot-text-info{max-width: 200px;}
     .works-title{margin-left: 10px;}
-    .works-slot{max-width: 540px; margin: 0 auto;}
+    .works-slot{max-width: 540px; margin: 45px auto 0 auto;}
+    .works-slot-text-subtitle{font-size: 18px;  }
 }
 
 @media screen and (max-width: 560px) {

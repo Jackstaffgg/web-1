@@ -93,7 +93,7 @@ background-color: #CFD8DC;
     height: 4px;
     left: 50%;
     background-color: #000;
-    transition: all .4s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .nav-link:hover::after{width: 100%; left: 0;}
 ._selected{color: #FF6464;}
@@ -101,9 +101,40 @@ background-color: #CFD8DC;
 
 
 
+/*   BLOG   */
+.blog{max-width: 750px; margin: 100px auto 0 auto;}
+.blog-title{font-size: 43px;color: #21243D;}
+.blog-slot{margin-top: 35px;}
+.blog-slot::after{
+    margin-top: 15px;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #E0E0E0;
+}
+.blog-slot-_content{
+    max-width: 650px;
+}
 
+.blog-slot-title{
+    color: #21243D;
+    font-size: 30px;
+}
+.blog-slot-info{display: flex; margin-top: 5px;}
+.blog-slot-info-date{font-size: 20px;}
 
-
+.blog-slot-info-slash{
+    margin: 0 15px;
+    width: 1px;
+    height: 23px;
+    background-color: #000;
+}
+.blog-slot-info-theme{font-size: 20px; color: #8695A4;}
+.blog-slot-subtitle{
+    font-size: 16px;
+    margin-top: 15px;
+}
 
 
 /*   FOOTER   */
@@ -125,8 +156,16 @@ background-color: #CFD8DC;
 
 }
 
+@media screen and (max-width: 800px) {
+    .blog{max-width: 530px;}
+}
+
+
 @media screen and (max-width: 560px) {
     .hamburger-menu{display: block;}
-
     .header-nav{display: none;}
+
+    .blog{max-width: 350px;}
+    .blog-title{font-size: 30px;}
+    .blog-slot-title{font-size: 26px;}
 }
